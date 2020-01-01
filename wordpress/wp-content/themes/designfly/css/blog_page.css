@@ -1,0 +1,116 @@
+.blog-container{
+   display: flex;
+   width: 920px;
+   margin: auto;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   justify-content: space-between;
+   /* padding: 5px; */
+}
+.blog-main-content-container{
+   width: 620px;
+}
+.blog-main-container-header-heading{
+   font-family: 'Open sans', sans-serif;
+   font-weight: 100;
+   font-size: 45px;
+   color: #62585f;
+   text-shadow: 2px 2px #ffffff;
+
+}
+.blog-main-content-flexbox{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.blog-main-content-item-heading{
+   width: 620px;
+   height: 50px;
+   background-color: #222222;
+   border: 1px solid #ffffff;
+	overflow: hidden;
+   /* opacity: 0.9; */
+   border-radius: 3px;
+   display: flex;
+   
+   align-items: center;
+}
+.blog-main-content-item-heading:hover{
+   background-color: #ef4634;
+}
+.datelist{
+   font-family: 'Open sans', sans-serif;
+   color: #ffffff;
+   margin: 0px 10px 0px 10px;
+   border-right: 1px solid rgba(255,255,255,0.3);
+   height: 100%;
+   flex-direction: column;
+	padding: 10px 10px 0 8px;
+}
+.datelist-number{
+   font-size: 25px;
+   /* margin: 3px; */
+   line-height: 1;
+   display: block;
+}
+.datelist-text{
+   font-size: 14px;
+   line-height: 1;
+   display: block;
+}
+.blog-main-content-item-heading-text{
+   font-size: 20px;
+   color: #ffffff;
+   margin: 10px;
+}
+
+.blog-main-content-item-flexbox{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 15px;
+}
+
+.blog-main-content-item-img{
+   width: 220px;
+   height: 153px;
+   /* margin-top: 20px; */
+   /* border-radius: 10px; */
+}
+
+.blog-main-content-item img{
+   width: 100%;
+   height: 100%;
+   border-radius: 10px;
+}
+.blog-main-content-item-text-flexbox{
+   width: 380px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.blog-main-content-item-text-subflexbox{
+   display: flex;
+   justify-content: space-between;
+   font-family: 'Open sans', sans-serif;
+   font-size: 13px;
+   color: #62585f;
+
+}
+.blog-main-content-item-text-subflexbox-a{
+   text-decoration: none;
+   color: #ef4634;
+}
+.blog-main-content-item-text-subflexbox-a:hover{
+   text-decoration: underline;
+}
+.blog-main-content-item-text-para{
+   font-family: 'Open  sans', sans-serif;
+   font-size: 14px;
+   color: #62585f;
+   line-height: 21px;
+}
+.blog-main-content-item-text-read-more{
+   font-family: 'Open sans', sans-serif;
+	font-size: 14px;
+}

@@ -1,0 +1,33 @@
+.slider {
+    padding: 0 0 5px;  
+	text-align: center;
+}
+/* .slider .slides img{
+	height: 80vh;
+	width: auto;
+	padding: 2vh;
+} */
+/* Fix selectable bug. */
+.slider.is-admin:before {
+	display: block;
+	content: "";
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 40px;
+	position: absolute;
+	z-index: 1;
+}
+.slider .caption h2{
+	font-size: 70px;
+	color: #fff;
+	font-family: 'Open sans', sans-serif;
+    font-weight: bold;
+	margin: 0;
+}
+.slider .caption p{
+	font-size: 16px;
+	color: #fff;
+	font-family: 'Open sans', sans-serif;
+    font-weight: 500;
+}
