@@ -6,7 +6,7 @@ password: Z&Y9)dW5kz0lh@AdJXeHARVh
 
 Assignment 1: Plugin Development
 
-File: plugins/qp-book/wp-book.php
+File: plugins/wp-book/wp-book.php
 
 ->User needs to activate the "WP Book" plugin. (If not activated)
 
